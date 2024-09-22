@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Welcome to Astro." description="Welcome to Astro.">
 	<main>
 		<svg
 			class="astro-a"
@@ -64,6 +64,9 @@ import Card from '../components/Card.astro';
 </Layout>
 
 <style>
+	html {
+		background: #13151a;
+	}
 	main {
 		margin: auto;
 		padding: 1rem;
